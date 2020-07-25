@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "javaType": "com.yama.money.transfer.core.api.model.Account",
+  "properties": {
+    "accountId": {
+      "type": "string"
+    },
+    "accountType": {
+      "type": "string"
+    }
+  }
+}

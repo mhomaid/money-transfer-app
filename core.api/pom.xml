@@ -85,6 +85,21 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.4.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-webmvc-core</artifactId>
+			<version>1.4.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-security</artifactId>
+			<version>1.4.3</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -117,6 +132,25 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.jsonschema2pojo</groupId>
+				<artifactId>jsonschema2pojo-maven-plugin</artifactId>
+				<version>1.0.2</version>
+				<configuration>
+					<sourceDirectory>${project.basedir}/src/main/resources/schema/</sourceDirectory>
+					<outputDirectory>${project.basedir}/src/main/java/</outputDirectory>
+					<includeAdditionalProperties>false</includeAdditionalProperties>
+					<includeHashcodeAndEquals>false</includeHashcodeAndEquals>
+					<generateBuilders>true</generateBuilders>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

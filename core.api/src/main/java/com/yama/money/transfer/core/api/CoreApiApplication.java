@@ -10,4 +10,5 @@ public class CoreApiApplication {
 		SpringApplication.run(CoreApiApplication.class, args);
 	}
 
+
 }

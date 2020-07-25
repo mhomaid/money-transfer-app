@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "javaType": "com.yama.money.transfer.core.api.model.Customer",
+  "properties": {
+    "customerId": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "middleName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "emailAddress": {
+      "type": "string"
+    },
+    "driversLicenseNumber": {
+      "type": "string"
+    },
+    "driversLicenseState": {
+      "type": "string"
+    },
+    "driversLicenseIssueDate": {
+      "type": "string"
+    },
+
+    "driversLicenseExpireDate": {
+      "type": "string"
+    }
+  }
+}

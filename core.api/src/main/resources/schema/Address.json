@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "javaType": "com.yama.money.transfer.core.api.model.Address",
+  "properties": {
+    "addressLine1": {
+      "type": "string"
+    },
+    "addressLine2": {
+      "type": "string"
+    },
+    "addressType": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "string"
+    }
+  }
+}

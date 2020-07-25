@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "javaType": "com.yama.money.transfer.core.api.model.Transaction",
+  "properties": {
+    "transactionId": {
+      "type": "string"
+    },
+    "customerId": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    }
+  }
+}

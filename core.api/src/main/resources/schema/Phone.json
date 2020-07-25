@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "javaType": "com.yama.money.transfer.core.api.model.Phone",
+  "properties": {
+    "number": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "string"
+    }
+  }
+}
