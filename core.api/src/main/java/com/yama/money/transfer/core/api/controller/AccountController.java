@@ -1,4 +1,4 @@
-package com.yama.money.transfer.core.api;
+package com.yama.money.transfer.core.api.controller;
 
 import com.yama.money.transfer.core.api.model.Account;
 import org.springframework.web.bind.annotation.*;
